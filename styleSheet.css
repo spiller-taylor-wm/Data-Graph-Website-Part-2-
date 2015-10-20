@@ -67,3 +67,8 @@ a:hover, a:active {
     text-decoration: none;
     font-weight: bold;
 }
+
+.box{
+    width: 100px;
+    height: 100px;
+}

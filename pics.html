@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AP Scores</title>
+        <link rel="stylesheet" type="text/css" href="styleSheet.css">
+
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    </head>
+
+    <body>
+        <div id="top">
+            <h1 style="color:black; font-family: courier new; font-size:50px"><u>AP Test Statistics 2015</u></h1>
+            <div id="navContainer">
+                <div id="tabGreen" class="navButtons" onmouseover="tabHover('green')" onmouseout="tabOut('green')" style="background-color: lightgreen; border-color:transparent;"><a href="scores.html">Scores</a></div>
+                <div id="tabBlue" class="navButtons" style="background-color: deepskyblue; border-color:#3a738b;"><a href="participants.html"><b>Participants</b></a></div>
+                <div id="tabRed" class="navButtons" onmouseover="tabHover('red')" onmouseout="tabOut('red')" style="background-color: #ff7978; border-color:transparent;"><a href="index.html">Home</a></div>
+            </div>
+        </div>
+
+        <br>
+        <div id="main">
+            <h1>Clickable Image Table</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img id="img1" class="box" onclick="document.getElementById('img1').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p1">Box 1</p>
+                        <button type="submit" onclick="changeDescription('p1')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img2" class="box" onclick="document.getElementById('img2').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p2">Box 2</p>
+                        <button type="submit" onclick="changeDescription('p2')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img3" class="box" onclick="document.getElementById('img3').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p3">Box 3</p>
+                        <button type="submit" onclick="changeDescription('p3')">Change Description</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img id="img4" class="box" onclick="document.getElementById('img4').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p4">Box 4</p>
+                        <button type="submit" onclick="changeDescription('p4')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img5" class="box" onclick="document.getElementById('img5').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p5">Box 5</p>
+                        <button type="submit" onclick="changeDescription('p5')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img6" class="box" onclick="document.getElementById('img6').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p6">Box 6</p>
+                        <button type="submit" onclick="changeDescription('p6')">Change Description</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img id="img7" class="box" onclick="document.getElementById('img7').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p7">Box 7</p>
+                        <button type="submit" onclick="changeDescription('p7')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img8" class="box" onclick="document.getElementById('img8').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p8">Box 8</p>
+                        <button type="submit" onclick="changeDescription('p8')">Change Description</button>
+                    </td>
+                    <td>
+                        <img id="img9" class="box" onclick="document.getElementById('img9').src = 'http://images.clipartpanda.com/baby-blue-border-clipart-8748-light-blue-square-clip-art.png'" src="http://www.clker.com/cliparts/7/g/j/h/i/2/teal-square-hi.png"/>
+                        <p id="p9">Box 9</p>
+                        <button type="submit" onclick="changeDescription('p9')">Change Description</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

@@ -277,3 +277,9 @@ function tabOut(tab) {
         document.getElementById('tabBlue').style.borderColor = 'transparent';
     }
 }
+
+/** Changes Description of pictures when button is clicked */
+function changeDescription(id){
+    var description = prompt("Please type the new description.", "Description");
+    document.getElementById(id).innerHTML = description;
+}
