@@ -264,6 +264,8 @@ function tabHover(tab) {
         document.getElementById('tabRed').style.borderColor = '#8b2323';
     } else if(tab == 'blue') {
         document.getElementById('tabBlue').style.borderColor = '#3a738b';
+    } else if(tab == 'yellow'){
+        document.getElementById('tabYellow').style.borderColor = 'goldenrod';
     }
 }
 
@@ -274,6 +276,8 @@ function tabOut(tab) {
     } else if(tab == 'red') {
         document.getElementById('tabRed').style.borderColor = 'transparent';
     } else if(tab == 'blue') {
+        document.getElementById('tabBlue').style.borderColor = 'transparent';
+    } else if(tab == 'yellow') {
         document.getElementById('tabBlue').style.borderColor = 'transparent';
     }
 }
